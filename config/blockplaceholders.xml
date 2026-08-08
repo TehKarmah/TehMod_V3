@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Table_of_Contents -->
+<!-- Search_Find_All_for *** -->
+
+<!-- Loot placeholders do NOT use weighted probabilities like the rest of the loot system. -->
+<!-- The max that an entry can have is 1.0. That is 100%. -->
+<!-- One item is randomly picked from the list, then has it's prob rolled. -->
+<!-- If that fails, try again. -->
+<!-- Continue until an item is found. -->
+
+<blockplaceholders>
+
+<!-- *** TERRAIN_HELPERS 
+
+
+	<placeholder name="tehPathHelper">
+		<block name="terrDirt" prob=".4"/>
+		<block name="terrGravel" prob=".4"/>
+		<block name="terrBurntForestGround" prob=".1"/>
+		<block name="terrDestroyedWoodDebris" prob=".1"/>
+	</placeholder>
+-->
+
+            
+
+
+</blockplaceholders>

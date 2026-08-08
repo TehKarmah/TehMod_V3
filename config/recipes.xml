@@ -1,0 +1,254 @@
+<recipes>
+
+<!-- * * * * * * * VANILLA BLOCKS * * * * * * * -->
+
+
+
+<!-- END VANILLA BLOCKS -->
+
+<!-- * * * * * * * VARIANT BLOCKS * * * * * * * -->
+<append xpath="/recipes">	
+<!-- Doors -->
+	<recipe name="woodSingleDoorsVariantHelper" count="1" tags="learnable">
+		<ingredient name="resourceWood" count="10"/>
+	</recipe>
+
+	<recipe name="woodDoubleDoorsVariantHelper" count="1" tags="learnable">
+		<ingredient name="resourceWood" count="20"/>
+	</recipe>
+
+	<recipe name="metalSingleDoorsVariantHelper" count="1" tags="learnable">
+		<ingredient name="resourceForgedIron" count="5"/>
+	</recipe>
+
+	<recipe name="metalDoubleDoorsVariantHelper" count="1" tags="learnable">
+		<ingredient name="resourceForgedIron" count="10"/>
+	</recipe>
+
+	<recipe name="miscDoorsVariantHelper" count="1" tags="learnable">
+		<ingredient name="resourceScrapIron" count="10"/>
+		<ingredient name="resourceScrapPolymers" count="10"/>
+	</recipe>
+
+	<recipe name="securityGateVariantHelper" count="1" craft_area="workbench" tags="learnable">
+		<ingredient name="resourceForgedSteel" count="100"/>
+		<ingredient name="resourceMechanicalParts" count="50"/>
+		<ingredient name="resourceElectricParts" count="50"/>
+		<ingredient name="resourceSpring" count="20"/>
+	</recipe>
+
+	<recipe name="modularRopeVariantHelper" count="1">
+		<ingredient name="resourceYuccaFibers" count="10"/>
+		<ingredient name="resourceCropCottonPlant" count="5"/>
+	</recipe>
+
+	<recipe name="flagPoleVariantHelper" count="1"  craft_area="workbench" tags="learnable">
+		<ingredient name="resourceForgedSteel" count="50"/>
+		<ingredient name="resourceMechanicalParts" count="20"/>
+		<ingredient name="resourceMetalPipe" count="20"/>
+		<ingredient name="resourceCloth" count="50"/>
+	</recipe>
+
+	<recipe name="flagWallVariantHelper" count="1" tags="learnable">
+		<ingredient name="resourceCloth" count="44"/>
+	</recipe>
+
+	<recipe name="moviePosterVariantHelper" count="1" craft_time="1">
+		<ingredient name="resourceCloth" count="15"/>
+		<ingredient name="resourceWood" count="5"/>
+		<ingredient name="resourcePaint" count="5"/>
+		<ingredient name="resourceNail" count="5"/>
+	</recipe>
+
+	<recipe name="snackPosterVariantHelper" count="1" craft_time="1">
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceWood" count="5"/>
+		<ingredient name="resourcePaint" count="5"/>
+		<ingredient name="resourceNail" count="5"/>
+	</recipe>
+
+	<recipe name="commercialSignVariantHelper" count="1" craft_time="1">
+		<ingredient name="resourcePaper" count="15"/>
+		<ingredient name="resourceWood" count="5"/>
+		<ingredient name="resourcePaint" count="5"/>
+		<ingredient name="resourceNail" count="5"/>
+	</recipe>
+
+	<recipe name="tehLandscapingTrees" count="1">
+		<ingredient name="resourceWood" count="100"/>
+		<ingredient name="drinkJarRiverWater" count="10"/>
+		<ingredient name="resourceClayLump" count="100"/>
+	</recipe>
+
+	<recipe name="tehLandscapingFoliage" count="1">
+		<ingredient name="resourceYuccaFibers" count="10"/>
+		<ingredient name="resourceWood" count="10"/>
+		<ingredient name="drinkJarRiverWater" count="1"/>
+		<ingredient name="resourceClayLump" count="10"/>
+	</recipe>
+
+	<recipe name="tehBookPile01VariantHelper" count="1">
+		<ingredient name="resourceCloth" count="5"/>
+		<ingredient name="resourcePaper" count="5"/>
+        <ingredient name="resourceGlue" count="1"/>
+	</recipe>
+
+	<recipe name="rusticDefense" count="1">
+		<ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceWood" count="100"/>
+	</recipe>
+
+	<recipe name="rusticStructures" count="1">
+		<ingredient name="resourceNail" count="10"/>
+        <ingredient name="resourceWood" count="40"/>
+	</recipe>
+
+</append>
+<!-- END VARIANT BLOCKS -->
+
+
+<!--  * * * * * TEHMOD ITEMS * * * * *  -->	
+<append xpath="/recipes">	
+
+	<recipe name="rugBearPlayer" count="1"  craft_area="workbench" tags="learnable">
+		<ingredient name="resourceLeather" count="100"/>
+		<ingredient name="resourceTestosteroneExtract" count="1"/>
+	</recipe>
+
+	<recipe name="workingPlanter" count="1" tags="perkLivingOffTheLandCrafting" craft_time="20">
+		<ingredient name="resourceConcreteMix" count="10"/>
+		<ingredient name="farmPlotBlockVariantHelper" count="1"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="2,3,4,5" operation="perc_add" value="-.3,-.5,-.5,-.5" tags="foodRottingFlesh,resourcePotassiumNitratePowder,resourceClayLump"/>
+		</effect_group>
+	</recipe>
+
+<!--  * * * * * Food * * * * *  -->	
+	<recipe name="kale" count="1">
+		<ingredient name="resourceYuccaFibers" count="1"/>
+	</recipe>
+
+	<recipe name="trailMix" count="1">
+		<ingredient name="resourceYuccaFibers" count="1"/>
+		<ingredient name="treePlantedMountainPine1m" count="1"/>
+	</recipe>
+
+	<recipe name="trailMix" count="1">
+		<ingredient name="resourceYuccaFibers" count="1"/>
+		<ingredient name="treePlantedOak1m" count="1"/>
+	</recipe>
+
+	<recipe name="trailMix" count="1">
+		<ingredient name="resourceYuccaFibers" count="1"/>
+		<ingredient name="treePlantedWinterPine1m" count="1"/>
+	</recipe>
+
+
+
+<!--  * * * * * Workstations * * * * *  -->	
+
+	<recipe name="industrialMixer" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceForgedSteel" count="50"/>
+		<ingredient name="resourceSpring" count="10"/>
+		<ingredient name="smallEngine" count="1"/>
+		<ingredient name="resourceMechanicalParts" count="20"/>
+	</recipe>
+
+	<recipe name="resourceConcreteMix" count="5" material_based="true"  craft_area="industrialMixer" craft_time="1" tags="industrialMixerCrafting">
+		<ingredient name="unit_stone" count="120"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_stone"/>
+		</effect_group>
+	</recipe>
+
+	<recipe name="resourceRockSmall" count="1" material_based="true" craft_area="industrialMixer" craft_time="1" craft_exp_gain="0" always_unlocked="true" use_ingredient_modifier="false">
+		<ingredient name="unit_stone" count="5"/>
+	</recipe>
+
+	<recipe name="workingBeverage" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceMetalPipe" count="5"/>
+		<ingredient name="resourceMechanicalParts" count="1"/>
+		<ingredient name="resourceForgedIron" count="15"/>
+	</recipe>
+
+	<recipe name="workingOvens" count="1" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceMetalPipe" count="5"/>
+		<ingredient name="resourceMechanicalParts" count="1"/>
+		<ingredient name="resourceForgedIron" count="20"/>
+		<ingredient name="campfire" count="1"/>
+	</recipe>
+
+ 
+<!--  * * * * * TEHSTORAGE * * * * *  -->	
+	<recipe name="tehWoodCrate" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceNail" count="10"/>
+		<ingredient name="resourceWood" count="20"/>
+	</recipe>
+
+	<recipe name="tehLeatherTrunk" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceNail" count="10"/>
+		<ingredient name="resourceWood" count="20"/>
+		<ingredient name="resourceLeather" count="10"/>
+	</recipe>
+
+	<recipe name="tehReinforcedChest" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="10"/>
+		<ingredient name="resourceMechanicalParts" count="5"/>
+	</recipe>
+
+	<recipe name="tehHardenedChestSmall" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceForgedSteel" count="20"/>
+		<ingredient name="resourceMechanicalParts" count="10"/>
+		<ingredient name="resourceScrapPolymers" count="5"/>
+		<ingredient name="resourceElectricParts" count="5"/>
+		<ingredient name="resourceSpring" count="5"/>
+	</recipe>
+
+	<recipe name="tehHardenedChestLarge" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceForgedSteel" count="40"/>
+		<ingredient name="resourceMechanicalParts" count="20"/>
+		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourceElectricParts" count="10"/>
+		<ingredient name="resourceSpring" count="10"/>
+	</recipe>
+
+	<recipe name="tehSturdyStorageContainerVariantHelper" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceForgedSteel" count="20"/>
+		<ingredient name="resourceMechanicalParts" count="10"/>
+		<ingredient name="resourceScrapPolymers" count="5"/>
+		<ingredient name="resourceElectricParts" count="5"/>
+		<ingredient name="resourceSpring" count="5"/>
+	</recipe>
+
+	<recipe name="tehSportsBag02VariantHelper" count="1">
+		<ingredient name="resourceCloth" count="20"/>
+		<ingredient name="resourceDuctTape" count="1"/>
+	</recipe>
+
+	<recipe name="tehBulkGoodsVariantHelper" count="1">
+		<ingredient name="resourceCement" count="20"/>
+		<ingredient name="resourcePaint" count="5"/>
+	</recipe>
+
+<!-- * * * * * * * WORKING LIGHTS * * * * * * * * * -->
+
+    <recipe name="tehPlayerLights" count="1" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+        <ingredient name="resourceForgedIron" count="10"/>
+        <ingredient name="resourceMechanicalParts" count="10"/>
+        <ingredient name="resourceElectricParts" count="3"/>
+        <ingredient name="resourceHeadlight" count="1"/>
+    </recipe>
+
+    <recipe name="tehlightsPlus" count="1" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+        <ingredient name="resourceForgedSteel" count="10"/>
+        <ingredient name="resourceMechanicalParts" count="20"/>
+        <ingredient name="resourceElectricParts" count="10"/>
+        <ingredient name="resourceHeadlight" count="1"/>
+    </recipe>
+
+ <!--END WORKING LIGHTS -->
+
+</append>
+<!--  END TEHMOD ITEMS  -->	
+
+</recipes>

@@ -1,0 +1,46 @@
+<gameevents> 
+
+<append xpath="/gameevents">
+
+<!-- *** Chicken Nest Spawner ***-->
+	<action_sequence name="tehChickenNestChicken">
+		<property name="action_type" value="Game"/>
+		<property name="target_type" value="Block"/>
+		<requirement class="RandomRoll">
+			<property name="min_max" value="0,50"/>
+			<property name="operation" value="GT"/>
+			<property name="value" value="40"/>
+		</requirement>
+		<action class="SpawnEntity">
+			<property name="entity_names" value="animalChicken"/>
+			<property name="spawn_count" value="1"/>
+			<property name="min_distance" value="1"/>
+			<property name="max_distance" value="2"/>
+			<property name="spawn_type" value="Position"/>
+		</action>
+	</action_sequence>
+
+
+
+
+<!-- *** Pit Reset Buttons ***-->
+
+	<action_sequence name="buff_pitReset">
+		<property name="action_type" value="Game" />
+		<action class="POIReset">
+			<property name="reset_skills" value="true" />
+			<property name="reset_books" value="true" />
+			<property name="reset_crafting" value="true" />
+			<property name="reset_levels" value="true" />
+			<property name="remove_landclaims" value="true" />
+			<property name="remove_bedroll" value="true" />
+			<property name="remove_quests" value="true" />
+			<property name="remove_challenges" value="true" />
+			<property name="remove_backpack" value="true" />
+			<property name="reset_stats" value="true" />
+		</action>
+	</action_sequence>
+
+</append>
+
+</gameevents>

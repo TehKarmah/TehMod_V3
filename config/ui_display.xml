@@ -1,0 +1,76 @@
+<ui_display>
+	<append xpath="/ui_display_info/crafting_category_display">
+
+		<crafting_category_list display_type="workingGrill">
+			<!-- <crafting_category name="" icon="ui_game_symbol_campfire" display_name="lblAll" />
+			<crafting_category name="Drink/Cooking" icon="ui_game_symbol_water" display_name="lblCategoryChemicals" /> -->
+			<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+			<crafting_category name="CFChemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingStove">
+			<!-- <crafting_category name="" icon="ui_game_symbol_campfire" display_name="lblAll" />
+			<crafting_category name="Drink/Cooking" icon="ui_game_symbol_water" display_name="lblCategoryChemicals" /> -->
+			<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+			<crafting_category name="CFChemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingWallOven01">
+			<!-- <crafting_category name="" icon="ui_game_symbol_campfire" display_name="lblAll" />
+			<crafting_category name="Drink/Cooking" icon="ui_game_symbol_water" display_name="lblCategoryChemicals" /> -->
+			<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+			<crafting_category name="CFChemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+		</crafting_category_list>		
+				
+		<crafting_category_list display_type="workingWallOven02">
+			<!-- <crafting_category name="" icon="ui_game_symbol_campfire" display_name="lblAll" />
+			<crafting_category name="Drink/Cooking" icon="ui_game_symbol_water" display_name="lblCategoryChemicals" /> -->
+			<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+			<crafting_category name="CFChemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+		</crafting_category_list>	
+
+		<crafting_category_list display_type="workingRange01">
+			<!-- <crafting_category name="" icon="ui_game_symbol_campfire" display_name="lblAll" />
+			<crafting_category name="Drink/Cooking" icon="ui_game_symbol_water" display_name="lblCategoryChemicals" /> -->
+			<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+			<crafting_category name="CFChemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingRangtop">
+			<!-- <crafting_category name="" icon="ui_game_symbol_campfire" display_name="lblAll" />
+			<crafting_category name="Drink/Cooking" icon="ui_game_symbol_water" display_name="lblCategoryChemicals" /> -->
+			<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+			<crafting_category name="CFChemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="industrialMixer">
+			<!-- <crafting_category name="" icon="ui_game_symbol_forge" display_name="lblAll" /> -->
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingCoffeeMaker">
+			<!-- <crafting_category name="" icon="ui_game_symbol_campfire" display_name="lblAll" />
+			<crafting_category name="Drink/Cooking" icon="ui_game_symbol_water" display_name="lblCategoryChemicals" /> -->
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingCoffeeMakerCommercial">
+			<!-- <crafting_category name="" icon="ui_game_symbol_campfire" display_name="lblAll" />
+			<crafting_category name="Drink/Cooking" icon="ui_game_symbol_water" display_name="lblCategoryChemicals" /> -->
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+		</crafting_category_list>
+
+		<crafting_category_list display_type="workingSodaFountain">
+			<!-- <crafting_category name="" icon="ui_game_symbol_campfire" display_name="lblAll" />
+			<crafting_category name="Drink/Cooking" icon="ui_game_symbol_water" display_name="lblCategoryChemicals" /> -->
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+		</crafting_category_list>
+
+	</append>
+</ui_display>

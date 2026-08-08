@@ -1,0 +1,43 @@
+<progression>
+<!-- * * * * * Vanilla Adjustments * * * * * -->
+    <set xpath="/progression/level/@max_level">500</set> 
+<!-- END Vanilla Adjustments -->    
+
+<!-- * * * * * * * Advanced Engineering * * * * * * * -->
+    <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="woodSingleDoorsVariantHelper,miscDoorsVariantHelper,tehPlayerLights"/>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="woodDoubleDoorsVariantHelper,tehlightsPlus"/>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="metalSingleDoorsVariantHelper"/>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="metalDoubleDoorsVariantHelper"/>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="industrialMixer,securityGateVariantHelper"/>
+    </append>        
+
+<!-- * * * * * * * Pack Mule * * * * * * * -->
+    <append xpath="/progression/perks/perk[@name='perkPackMule']/effect_group">
+       <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="tehWoodCrate"/>
+       <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="tehLeatherTrunk"/>
+       <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="tehReinforcedChest,tehSturdyStorageContainerVariantHelper"/>
+       <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="tehHardenedChestSmall"/>
+       <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,5" value="1" tags="tehHardenedChestLarge"/>
+    </append>   
+
+<!-- * * * * * * * Animal Tracker * * * * * * * -->
+    <append xpath="/progression/perks/perk[@name='perkAnimalTracker']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="rugBearPlayer"/>
+    </append>   
+
+<!-- * * * * * * * Daring Adventurer * * * * * * * -->
+    <append xpath="/progression/perks/perk[@name='perkDaringAdventurer']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="flagWallVariantHelper"/>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="flagPoleVariantHelper"/>
+    </append>     
+
+<!-- * * * * * * * Living Off The Land * * * * * * * -->
+    <append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="tehChickenNest1Empty,chickenFeed,tehFeedingBag"/>
+    </append>     
+
+
+
+
+</progression>

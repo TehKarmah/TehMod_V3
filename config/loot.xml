@@ -1,0 +1,53 @@
+<configs>
+<!-- * * * * * * * * * STORAGE * * * * * * * * *  -->	
+<append xpath="/lootcontainers">
+	<lootcontainer name="tehWoodCrate" count="0" size="8,6" sound_open="UseActions/crate_wood_open" sound_close="UseActions/crate_wood_close" loot_quality_template="qualBaseTemplate">
+		<item name="cobweb" count="1,2"/>
+	</lootcontainer>
+
+	<lootcontainer name="tehLeatherTrunk" count="0" size="10,10" sound_open="UseActions/chest_tier2_open" sound_close="UseActions/chest_tier2_close" loot_quality_template="qualBaseTemplate">
+		<item name="cobweb" count="1,2"/>
+	</lootcontainer>
+
+	<lootcontainer name="tehReinforcedChest" count="0" size="10,10" sound_open="UseActions/chest_tier3_open" sound_close="UseActions/chest_tier3_close" loot_quality_template="qualBaseTemplate">
+		<item name="cobweb" count="1,2"/>
+	</lootcontainer>
+
+	<lootcontainer name="tehHardenedChest" count="0" size="10,10" sound_open="UseActions/chest_tier4_open" sound_close="UseActions/chest_tier4_close" loot_quality_template="qualBaseTemplate">
+		<item name="cobweb" count="1,2"/>
+	</lootcontainer>
+
+	<lootcontainer name="tehHardenedChestLarge" count="0" size="15,10" sound_open="UseActions/chest_tier4_open" sound_close="UseActions/chest_tier4_close" loot_quality_template="qualBaseTemplate">
+		<item name="cobweb" count="1,2"/>
+	</lootcontainer>
+
+	<lootcontainer name="tehSportsBag" count="0" size="5,5" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate">
+		<item name="cobweb" count="1,2"/>
+	</lootcontainer>
+
+	<lootcontainer name="tehBulkGoods" count="0" size="10,10" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate">
+		<item name="cobweb" count="1,2"/>
+	</lootcontainer>
+
+	<lootcontainer name="tehBookPile01" count="0" size="5,5" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="cobweb" count="1,2"/>
+	</lootcontainer>
+
+    <lootcontainer name="tehBook" count="0" size="5,2" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate">
+		<item name="cobweb" count="1,2"/>
+	</lootcontainer>
+
+</append>
+
+<!-- * * * * * * * * * Chicken Coop * * * * * * * * *  -->	
+<append xpath="/lootcontainers">
+	<lootcontainer name="chickenNest" count="1,3" size="3,1" destroy_on_close="true" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" buff="buffScavengingServerHack,buffScavengingSkillXPTick">
+		<item name="foodEgg" count="1,2" prob="1" />
+		<item name="resourceFeather" count="4,10" prob="0.25" />
+	</lootcontainer>
+</append>
+
+
+
+
+</configs>
