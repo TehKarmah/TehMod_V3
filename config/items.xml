@@ -197,7 +197,6 @@
                 <property name="Range" value="300"/>
                 <property name="Single_magazine_usage" value="false"/>
                 <property name="Infinite_ammo" value="true"/>
-                <property name="Magazine_items" value="ammo9mmBullet"/>
                 <property name="Sound_start" value="malehateattack"/>
                 <property name="Particles_muzzle_fire" value="rocketLauncherFire"/>
                 <property name="Particles_muzzle_smoke" value="nozzlesmoke_m136"/>
