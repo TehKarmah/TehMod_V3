@@ -517,7 +517,6 @@
 			<drop event="Destroy" name="resourceSpring" count="2,8" tag="salvageHarvest"/>
 			<drop event="Destroy" name="resourceMechanicalParts" count="2,10" tag="salvageHarvest"/>
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		</property>
 		<property class="RepairItems">
 			<property name="resourceForgedSteel" value="6"/>
 		</property>
