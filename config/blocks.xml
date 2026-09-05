@@ -470,6 +470,7 @@
 		<property name="Extends" value="cntQuestTestLoot"/>
 		<property name="CustomIcon" value="cntQuestTestLoot"/>
 		<property name="CustomIconTint" value="99ff99"/>
+		<property name="UnlockedBy" value="perkPackMule"/>
 		<property name="ItemTypeIcon" value="all_blocks"/>
 		<property name="UnlockedBy" value="perkPackMule"/>
 		<property name="PickupJournalEntry" value="shapeMenuTip"/>
